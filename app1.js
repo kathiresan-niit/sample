@@ -1,10 +1,11 @@
+
 //Demo of Searching and Sorting Table with AngularJS
 var myApp = angular.module('myApp',[]);
   
  myApp.controller('TableCtrl', ['$scope', function($scope) {  
     
     $scope.allItems = getDummyData(); 
-      
+          $scope.allItems = getDummyData(); 
      $scope.resetAll = function()
      {
          $scope.filteredList = $scope.allItems ; 
