@@ -13,6 +13,7 @@ var myApp = angular.module('myApp',[]);
          $scope.newName = '';
          $scope.newEmail = '';
          $scope.searchText = ''; 
+         $scope.searchText = 'jjj'; 
      }
      
      
